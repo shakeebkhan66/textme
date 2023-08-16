@@ -40,7 +40,6 @@ class MyPageViewScreen extends StatelessWidget {
               activeDotColor: Colors.white
             ),),
           ),
-
         ],
       ),
     );

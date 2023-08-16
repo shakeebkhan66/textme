@@ -6,3 +6,4 @@ import 'dart:ui';
  Color fourthPageScreenColor =  const Color(0xfffadd75);
  Color fifthPageScreenColor =  const Color(0xff32c18f).withOpacity(0.5);
  Color sixthPageScreenColor =  const Color(0xffabdd4a);
+ Color eightPageScreenColor =  const Color(0xff367cb5);
