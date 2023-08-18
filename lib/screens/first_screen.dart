@@ -84,7 +84,7 @@ class FirstScreen extends StatelessWidget {
         ],
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-      bottomNavigationBar: Container(
+      floatingActionButton: Container(
         height: 180.0,
         width: double.infinity,
         // color: Colors.white,
