@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:textme/screens/callhistory_screen.dart';
 import 'package:textme/screens/contacts_screen.dart';
 import 'package:textme/screens/mypageview_screen.dart';
 
@@ -12,13 +13,13 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       // theme: ThemeData(
       //   colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       //   useMaterial3: true,
       // ),
-      home: ContactsScreen(),
+      home: CallHistoryScreen(),
     );
   }
 }
